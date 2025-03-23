@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: "lib"
+          output_folder: "./api"
+          override_equals_and_hashcode: false
+          override_to_string: true
+
+        # custom configuration options!
